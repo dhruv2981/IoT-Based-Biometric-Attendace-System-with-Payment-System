@@ -10,8 +10,8 @@
 SoftwareSerial mySerial(D1, D2);
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
 
-const char* ssid     = "realme";   //replace with your own SSID
-const char* password = "dhruv007";    //replace with your own password
+const char* ssid     = "";   //replace with your own SSID
+const char* password = "";    //replace with your own password
 const char* host = "api.pushingbox.com"; 
 
 boolean loopaction = true;
@@ -128,7 +128,7 @@ void connecthost(String data, int uniqueid, int state)
 
     String url = "/pushingbox?";
     url += "devid=";
-    url += "vFE867393C344013";
+    url += "";
     url += "&name=" + String(member) + "&id=" + String(member2) + "&status=" + String(state);
     
     Serial.print("Requesting URL: ");

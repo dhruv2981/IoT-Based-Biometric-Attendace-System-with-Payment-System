@@ -8,8 +8,13 @@ The physical attendance and payment system procured issues like ghost workers, f
 * The prototype automates the process of identification as well as delivers high accuracy rates.
 * The automated system also mitigates payout fraud.
 
-## Basic Working Idea 
-This systems works on 
-- Created a biometric attendance system that uses a fingerprint sensor to mark attendance for daily wage workers like in MGNREGA.
-- Has functionality to register, mark attendance, and track the time between workers working for each individual. This was achieved using Google Scripts.
-- This can help prevent ghost workers (if we use the AADHAR number as a unique ID) and make work more organized. 
+## Build with
+1. NodeMCU ESP8266
+2. Fingerprint scanner (R307)
+3. Google Spread Sheet
+
+## Prerequisites
+Install Arduiono IDE and Android Studio.
+
+
+![image10](https://user-images.githubusercontent.com/84853899/191156637-49a6bb68-ee00-464c-9e3a-be3f2b64627c.jpg)
